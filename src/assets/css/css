@@ -1,0 +1,391 @@
+@font-face {
+    font-family: 'Circular Std Black';
+    src: url(../fonts/CircularStd-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Circular Std Bold';
+    src: url(../fonts/CircularStd-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Circular Std Book';
+    src: url(../fonts/CircularStd-Book.ttf);
+    
+}
+
+@font-face {
+    font-family: 'Circular Std Medium';
+    src: url(../fonts/CircularStd-Medium.ttf);
+    
+}
+
+body{
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+
+.pagina{
+    display: flex;
+    min-height: 100vh;
+}
+
+.texto--cinza{
+    color: #B3B3B3;
+}
+
+.texto--branco{
+    color: #FFFFFF;
+}
+
+.fundo--preto{
+    background-color: #000000;
+}
+
+.fundo--degrade{
+    background: linear-gradient(180deg,#3333A3 0%, #3333A3 10%, #121212 25%);
+}
+
+.div--flex{
+    display: flex;
+}
+
+.flex--direction--row{
+    flex-direction: row;
+}
+
+.flex--direction--column{
+    flex-direction: column;
+}
+
+.justify--content--center{
+    justify-content: center;
+}
+
+.justify--content--start{
+    justify-content: flex-start;
+}
+
+.align--items--center{
+    align-items: center;
+}
+.align--items--end{
+    align-items: flex-end;
+}
+
+.justify--content--end{
+    justify-content: flex-end;
+}
+
+.flex--1{
+    flex: 1;
+}
+
+.flex--2{
+    flex: 2;
+}
+
+.flex--4{
+    flex: 4;
+}
+
+.flex--3{
+    flex: 3;
+}
+
+.flex--10{
+    flex: 10;
+}
+
+.texto--categoria{
+    font-family: 'Circular Std Bold';
+}
+
+.componente--see--all{
+    color: #ADADAD;
+    font-size: 16px;
+    font-family: 'Circular Std Bold';
+}
+
+.icon--menu{
+    width: 25px;
+    height: 28px;
+}
+
+.componente--item--menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 32px;
+    font-size: 18px;
+    font-family: 'Circular Std Medium';
+}
+
+.componente--item--secundario--menu{
+    font-size: 18px;
+    font-family: 'Circular Std Book';
+}
+
+.parte--esquerda{
+    display: flex;
+    flex-direction: column;
+    flex:1;  
+    gap: 20px;
+ 
+    padding-top: 80px ;
+
+}
+
+.conjunto--item--menu{
+    display: flex;
+    height: 32px;
+    gap: 20px;
+}
+
+.top--40{
+    margin-top: 40px;
+}
+
+.separator{
+    height: 0.5;
+    background: #282828;
+    width: 100%;
+}
+
+.parte--meio{
+    display: flex;
+    flex:3.5;
+    padding: 0px 40px;
+}
+
+.icone--topo{
+    width: 40px;
+    height: 40px;
+}
+
+.div--icones--topo{
+    gap: 20px;
+}
+
+.topo{
+    height: 80px;
+    
+}
+
+.parte--direita{
+    display: flex;
+    flex:1;
+}
+
+.botao--settings{
+    padding: 18px 60px;
+    border-radius: 40px;
+    letter-spacing: 14%;
+    font-family: "Circular Std Bold";
+    font-size: 18px;
+    border: 0;
+}
+
+.botao--perfil{
+    width: 189px;
+    height: 40px;
+    background-color: black;
+    border-radius: 40px;
+
+}
+
+.foto--perfil{
+    width: 34px;
+    height: 34px;
+    margin-left: 3px;
+}
+
+.nome--perfil{
+    font-family: "Circular Std Bold";
+    font-size: 18px;
+    color: white
+}
+
+.titulo--meio{
+    font-family: "Circular Std Bold";
+    font-size: 39px;
+    color: white;
+    margin-top: 30px;
+}
+
+.lista--estilos--musicais{
+    height: 82px;
+    gap: 30px
+}
+
+.div--estilo--musical{
+    background: linear-gradient(to right, rgba(72,72,142,0.3),rgba(92,95,142,0.3),rgba(92,95,142,0.3),rgba(92,95,142,0.3),rgba(92,95,142,0.3),rgba(92,95,142,0.3),rgba(92,95,142,0.3));
+    border-radius: 6px;
+    cursor: pointer;
+     
+}
+
+.div--estilo--musical:hover{
+    background: linear-gradient(to right, rgba(72,72,142,0.2),rgba(92,95,142,0.2),rgba(92,95,142,0.2),rgba(92,95,142,0.3),rgba(92,95,142,0.2),rgba(92,95,142,0.2),rgba(92,95,142,0.2));
+}
+
+.container--estilos-musicais{
+    margin-top: 20px;
+    gap: 15px;
+   
+}
+
+.img--estilo--musical{
+    width: 82px;
+    height: 82px;
+    border-radius: 6px 0px 0px 6px 
+}
+
+.nome--estilo--musical{
+
+    font-family: "Circular Std Bold";
+    font-size: 20px;
+    color: white;
+
+}
+
+.titulo--bloco--personalizado{
+    font-size: 30px;
+    font-family: 'Circular Std BOld';
+    color: white;
+}
+
+.div--blocos--personalizados{
+    margin-top: 30px;
+}
+
+.texto--see--all{
+    font-size: 16px;
+    font-family: 'Circular Std Bold';
+}
+
+.bloco--opcao--personalizada{
+    width: 224px;
+    height: 324px;
+    background-color: #1b1b1b;
+}
+
+.lista--estilos--personalizados{
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.foto--estilo--personalizado{
+    width: 182px;
+    height: 182px;
+    margin-top: 10px;
+}
+
+.nome--estilo--personalizado{
+    font-family: 'Circular Std Bold';
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+
+.descricao--estilo--personalizado{
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+}
+
+.div--foto--musica--atual{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.foto--musica--atual{
+    width: 310px;
+    padding: 3px;
+}
+
+.padding--parte--esquerda{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+.container--player{
+    height: 112px;
+    background-color: #1b1b1b;
+}
+
+.nome--musica{
+    font-family: 'Circular Std Book';
+    font-size: 18px;
+    color: white;
+    margin-left: 18px;
+}
+
+.nome--autor{
+    font-family: 'Circular Std Book';
+    font-size: 16px;
+    color: #B3B3B3;
+    margin-left: 18px;
+    margin-top: 5px;
+
+}
+
+.icon--heart{
+    width: 28px;
+    height: 28px;
+}
+
+.div--icones--player{
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.icone--player{
+    width: 32px;
+    cursor: pointer;
+
+}
+
+.icone--play{
+    width: 48px;
+    cursor: pointer;
+}
+
+.tempo--avanco--musica{
+    font-family: 'Circular Std Book';
+    font-size: 16px;
+    color: #a6a6a6
+}
+
+.progresso--musica{
+    height: 5px;
+    background: linear-gradient(to right, white 60%, #a6a6a6 60%);
+    width: 99%;
+    border-radius: 10px;
+    
+}
+
+div--progresso{
+    gap:5px;
+    
+}
+.volume--musica{
+    height: 5px;
+    background: linear-gradient(to right, white 60%, #a6a6a6 60%);
+    width: 104px;
+    border-radius: 10px;
+}
+
+.div--opcoes--musica{
+    gap: 5px;
+    padding-right: 20px;
+}
